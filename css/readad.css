@@ -1,0 +1,52 @@
+.parent {
+    width: 70%;
+    /* Try setting this to 400px or something */
+    height: 70px;
+    display: table;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 10px rgb(139, 136, 136);
+    align-content: stretch;
+}
+
+.child {
+    display: table-cell;
+    align-content: center;
+}
+
+.childinner {
+    margin-left: 25px;
+    /* Decorative .. */
+    min-height: 40px;
+}
+
+.child:first-child .childinner {
+    margin-left: 10;
+}
+
+.acceptbtn {
+    margin: 10;
+    color: white;
+    background-color: green;
+    border-width: 1;
+    border-radius: 20%;
+    margin-right: 20px;
+    padding-right: 15;
+    padding-left: 15;
+}
+
+.refusebtn {
+    margin: 10;
+    color: white;
+    background-color: red;
+    border-width: 1;
+    border-radius: 20%;
+    margin-left: 20px;
+    padding-right: 15;
+    padding-left: 15;
+}
+
+h1 {
+    font-size: 3em;
+    color: blue;
+}
